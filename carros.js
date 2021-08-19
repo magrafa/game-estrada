@@ -6,7 +6,7 @@ let altc = 35
 
  
 
-
+// cara, tinha dado mt erro aqui mas foi pq tu n colocou let (>>>>>i<<<< = 0;) e msm assim dava erro, sei nem como tu conseguiu corrigir em casa mas deu bom
 function mostraCarro(){
   for (let i = 0; i < imagemDoCarros.length; i ++ ){
     image(imagemDoCarros[i], xCarros[i], yCarros[i], compc, altc)
