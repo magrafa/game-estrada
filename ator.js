@@ -15,13 +15,13 @@ function mostraAtor(){
 
 function movimentaAtor(){
   if (keyIsDown(UP_ARROW)){
-    yAtor -= 2;
+    yAtor -= velocidadea;
   }
   if (keyIsDown(DOWN_ARROW)){
-    yAtor += 2;
+    yAtor += velocidadea;
   }
   if (keyIsDown(RIGHT_ARROW)){
-    xAtor += 2;
+    xAtor += velocidadea;
   }
   if (keyIsDown(LEFT_ARROW)){
     xAtor -= velocidadea;
@@ -54,9 +54,11 @@ function colis (){
 function volA(){
   if (xAtor < -20){
     xAtor = 250
+    yAtor = 370
   }
    if (xAtor > 520){
     xAtor = 250
+    yAtor = 370
   }
 }
 function volAt(){
