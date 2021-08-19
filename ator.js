@@ -77,7 +77,7 @@ function pts(){
   }
   
 }
-
+//não acho que a function pts serve tanto assim, a funtion vol A ja faz o trab do mm jeito (? será?)
 function win(){
   textSize(25)
   fill(color(155, 255, 20))
